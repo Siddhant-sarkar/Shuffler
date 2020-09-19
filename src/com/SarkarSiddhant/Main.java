@@ -99,7 +99,6 @@ public class Main {
                         }
                         else{
                             System.out.println("Sorry Cant go Further more THe beginning of the List reached");
-
                         }
                     }
                     break;
@@ -107,10 +106,10 @@ public class Main {
                     Print_Playlist(Playlist);
                     break;
                 case 5:
-
+                    int i1=scanner.nextInt();
+                    scanner.nextLine();
+                    Playlist.remove(i1-1);
                     break;
-
-
             }
         }
     }
